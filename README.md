@@ -25,11 +25,10 @@ In your project's Gruntfile, add a section named `scssglobbing` to the data obje
 ```js
 grunt.initConfig({
   scssglobbing: {
-    options: {
-      // Task-specific options go here.
-    },
     your_target: {
-      // Target-specific file lists and/or options go here.
+        files: {
+            src: "_your_sass_file.scss"
+        }
     },
   },
 });
